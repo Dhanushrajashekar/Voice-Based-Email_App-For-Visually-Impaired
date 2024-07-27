@@ -44,6 +44,20 @@ The application comprises several key components:
 - **Programming Language**: Python 3.6
 - **Tools**: Anaconda (for package management and environment setup)
 
+### MySQL Installation
+
+1. **Download MySQL Installer**:
+    - Download `mysql-5.5.19-winx64.msi` from the repository.
+
+2. **Install MySQL**:
+    - Run the installer and follow the on-screen instructions to complete the installation.
+
+3. **Download MySQL GUI Tools**:
+    - Download `mysql-gui-tools-5.0-r4-win32.msi` from the repository.
+
+4. **Install MySQL GUI Tools**:
+    - Run the installer and follow the on-screen instructions to complete the installation.
+
 ## Functional Requirements
 
 - **Desktop Application**: Developed using Tkinter for the graphical user interface.
@@ -66,18 +80,21 @@ The application comprises several key components:
     cd voice-email-app
     ```
 
-2. **Create a Virtual Environment**:
+2. **Extract the Project Files**:
+    - Extract `voicebasedmail.rar` to a directory named `voicebasedmail`.
+
+3. **Create a Virtual Environment**:
     ```bash
     conda create --name vemail python=3.6
     conda activate vemail
     ```
 
-3. **Install Dependencies**:
+4. **Install Dependencies**:
     ```bash
     conda install --file requirements.txt
     ```
 
-4. **Run the Application**:
+5. **Run the Application**:
     ```bash
     python main.py
     ```
@@ -104,6 +121,7 @@ Users can listen to their emails being read aloud by the system. The application
 - `docs/`: Documentation and additional resources.
 - `src/`: Source code for the application, including modules for GUI, voice processing, and email handling.
 - `tests/`: Unit tests and integration tests for the application.
+- `voicebasedmail/`: Directory containing the main project files and resources.
 
 ## Contributors
 
