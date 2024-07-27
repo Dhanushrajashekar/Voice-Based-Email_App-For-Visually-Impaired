@@ -1,6 +1,3 @@
-# Let's create the detailed README.md content and save it to a file
-
-readme_content = """
 # Voice Based Email Application for Visually Impaired Person
 
 ## Overview
